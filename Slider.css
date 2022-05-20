@@ -156,12 +156,14 @@
 
 .beer-slider[data-beer-label]:after
 {
-	right:40px
+	right:20px;
+	top: 20px
 }
 
 .beer-reveal[data-beer-label]:after
 {
-	left:40px
+	left:20px;
+	top:20px
 }
 
 .beer-reveal[data-beer-label=""]:after,
