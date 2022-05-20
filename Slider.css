@@ -93,7 +93,7 @@
 	background:hsla(208,90%,48%,.8);
 	border-radius:50%;
 	box-shadow:0 0 6px transparent;
-	color:#000;
+	color:#fff;
 	height:48px;
 	left:50%;
 	opacity:0;
@@ -134,20 +134,21 @@
 .beer-range:focus~
 .beer-handle
 {
-	background:hsla(0,0%,100%,.85);
+	background:hsla(208,90%,48%,.85);
 	box-shadow:0 0 3px rgba(0,0,0,.4)
 }
 
 .beer-reveal[data-beer-label]:after,
 .beer-slider[data-beer-label]:after
 {
-	background:hsla(0,0%,100%,.75);
+	background:hsla(208,90%,48%,.75);
 	border-radius:.125rem;
 	content:attr(data-beer-label);
 	line-height:1;
 	padding:.5rem;
 	position:absolute;
-	top:1.5rem
+	top:1.5rem;
+	font-family: Poppins;
 }
 
 .beer-slider[data-beer-label]:after
