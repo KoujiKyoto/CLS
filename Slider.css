@@ -143,10 +143,10 @@
 {
 	background:rgb(0, 204, 255);
 	box-shadow: 0 0 30px rgba(0, 204, 255, .45);
-	border-radius:.125rem;
+	border-radius: 10px;
 	content:attr(data-beer-label);
-	line-height:1.5;
-	padding:1rem;
+	line-height:16px;
+	padding:5px 10px 5px 10px;
 	position:absolute;
 	top:1rem;
 	font-family:Poppins;
