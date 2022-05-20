@@ -144,8 +144,8 @@
 	background:rgb(12, 130, 232);
 	border-radius:.125rem;
 	content:attr(data-beer-label);
-	line-height:1;
-	padding:1rem;
+	line-height:2;
+	padding:2rem;
 	position:absolute;
 	top:1.5rem;
 	font-family:Poppins;
