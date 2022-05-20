@@ -90,9 +90,9 @@
 
 .beer-handle
 {
-	background:rgb(12, 130, 232);
+	background:rgb(0, 204, 255);
 	border-radius:100%;
-	box-shadow:0 0 6px transparent;
+	box-shadow:0 0 20px rgba(0, 204, 255, .35);
 	color:#fff;
 	height:64px;
 	left:50%;
@@ -134,14 +134,15 @@
 .beer-range:focus~
 .beer-handle
 {
-	background:rgb(12, 130, 232);
+	background:rgb(0, 204, 255);
 	box-shadow:0 0 3px rgba(0,0,0,.4)
 }
 
 .beer-reveal[data-beer-label]:after,
 .beer-slider[data-beer-label]:after
 {
-	background:rgb(12, 130, 232);
+	background:rgb(0, 204, 255);
+	box-shadow: 0 0 10px rgba(0, 204, 255, .35);
 	border-radius:.125rem;
 	content:attr(data-beer-label);
 	line-height:1.5;
