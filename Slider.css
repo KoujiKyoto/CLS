@@ -91,7 +91,7 @@
 .beer-handle
 {
 	background:rgb(12, 130, 232);
-	border-radius:50%;
+	border-radius:100%;
 	box-shadow:0 0 6px transparent;
 	color:#fff;
 	height:64px;
@@ -144,12 +144,12 @@
 	background:rgb(12, 130, 232);
 	border-radius:.125rem;
 	content:attr(data-beer-label);
-	line-height:1;
+	line-height:1.5;
 	padding:1rem;
 	position:absolute;
 	top:1.5rem;
 	font-family:Poppins;
-	font-weight: bold;
+	font-weight: regular;
 	color: #fff
 }
 
