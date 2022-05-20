@@ -145,10 +145,10 @@
 	border-radius:.125rem;
 	content:attr(data-beer-label);
 	line-height:1;
-	padding:.5rem;
+	padding:1rem;
 	position:absolute;
 	top:1.5rem;
-	font-family: Poppins;
+	font-family:Poppins;
 }
 
 .beer-slider[data-beer-label]:after
