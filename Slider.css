@@ -90,7 +90,7 @@
 
 .beer-handle
 {
-	background:hsla(208,90%,48%,.8);
+	background:rgb(12, 130, 232);
 	border-radius:50%;
 	box-shadow:0 0 6px transparent;
 	color:#fff;
@@ -134,14 +134,14 @@
 .beer-range:focus~
 .beer-handle
 {
-	background:hsla(208,90%,48%,.85);
+	background:rgb(12, 130, 232);
 	box-shadow:0 0 3px rgba(0,0,0,.4)
 }
 
 .beer-reveal[data-beer-label]:after,
 .beer-slider[data-beer-label]:after
 {
-	background:hsla(208,90%,48%,.75);
+	background:rgb(12, 130, 232);
 	border-radius:.125rem;
 	content:attr(data-beer-label);
 	line-height:1;
