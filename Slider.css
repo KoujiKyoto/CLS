@@ -79,7 +79,7 @@
 
 .beer-range::-moz-range-thumb
 {
-	-webkit-appearance:none;
+	-webkit-appearance:visible;
 	height:300vh
 }
 
