@@ -35,7 +35,7 @@
 {
 	left:0;
 	opacity:0;
-	overflow:hidden;
+	overflow:visible;
 	position:absolute;
 	right:50%;top:0;
 	transition:opacity .35s;
@@ -112,17 +112,17 @@
 	border-left:2px solid;
 	border-top:2px solid;
 	content:"";
-	height:10px;
+	height:20px;
 	position:absolute;
 	top:50%;
 	transform-origin:0 0;
-	width:10px
+	width:5px
 }
 
 .beer-handle:before
 {
 	left:10px;
-	transform:rotate(-45deg)
+	transform:rotate(0deg)
 }
 
 .beer-handle:after
@@ -145,13 +145,13 @@
 	box-shadow: 0 0 30px rgba(0, 204, 255, .45);
 	border-radius: 15px;
 	content:attr(data-beer-label);
-	line-height:32px;
+	line-height:24px;
 	padding:20px 40px 20px 40px;
 	position:absolute;
 	top:1rem;
 	font-family:Poppins;
 	font-weight: regular;
-	font-size: 32px;
+	font-size: 24px;
 	color: #fff
 }
 
