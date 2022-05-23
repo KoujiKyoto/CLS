@@ -35,7 +35,7 @@
 {
 	left:0;
 	opacity:0;
-	overflow:visible;
+	overflow:hidden;
 	position:absolute;
 	right:50%;top:0;
 	transition:opacity .35s;
@@ -57,13 +57,13 @@
 {
 	-moz-appearance:none;
 	-ms-touch-action:auto;
-	-webkit-appearance:slider-horizontal!important;
+	-webkit-appearance:slider-vertical!important;
 	bottom:0;
 	cursor:pointer;
 	height:100%;
 	left:-1px;
 	margin:0;
-	opacity:1;
+	opacity:0;
 	position:absolute;
 	top:0;
 	touch-action:auto;
@@ -145,12 +145,13 @@
 	box-shadow: 0 0 30px rgba(0, 204, 255, .45);
 	border-radius: 15px;
 	content:attr(data-beer-label);
-	line-height:24px;
+	line-height:32px;
 	padding:20px 40px 20px 40px;
 	position:absolute;
 	top:1rem;
 	font-family:Poppins;
 	font-weight: regular;
+	font-size: 32px;
 	color: #fff
 }
 
