@@ -35,7 +35,7 @@
 {
 	left:0;
 	opacity:0;
-	overflow:visible;
+	overflow:hidden;
 	position:absolute;
 	right:50%;top:0;
 	transition:opacity .35s;
@@ -96,7 +96,7 @@
 	color:#fff;
 	height:64px;
 	left:50%;
-	opacity:0;
+	opacity:1;
 	pointer-events:none;
 	position:absolute;
 	top:50%;
